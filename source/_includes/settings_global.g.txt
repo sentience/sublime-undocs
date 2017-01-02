@@ -119,13 +119,11 @@
 
    If ``true``,
    preview file contents
-   when clicking on a file in the side bar.
-   Files in preview
-   will be closed automatically
-   as soon as they lose focus
-   (for example, if you press :kbd:`Esc`).
+   when clicking on an unopened file in the side bar.
+   When another unopened file is clicked,
+   the open preview tab will switch to display that file.
    Double-clicking or editing a file in preview
-   will open the file in a tab.
+   will convert the preview tab to a standard tab.
 
    
 ``folder_exclude_patterns``
